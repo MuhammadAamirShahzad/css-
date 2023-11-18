@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+background-color: rgba(51, 100, 184, 0.98);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#std1 img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes move1 {
+    0%{
+        left: 0;
+        top:0%
+        
+    }
+    
+    50%{
+        left: 80%;
+        
+        
+    }
+    100%{
+        rotate: 360deg;
+        top:60%;
+    }
+}
+#std2 img{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    animation-name: move2;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes move2 {
+    0%{
+        left: 0;
+        top:0%
+        
+    }
+    
+    50%{
+        left: 80%;
+       
+        
+    }
+    
+    100%{
+        rotate: 360deg;
+        top:60%;
+        left:15%;
+    }
+    }
+    #std3 img{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        animation-name: move3;
+        animation-duration: 4s;
+        animation-delay: 10s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+    
+    }
+    @keyframes move3 {
+        0%{
+            left: 0;
+            top:0%
+            
+        }
+        
+        50%{
+            left: 80%;
+            
+            
+        }
+        100%{
+            rotate: 360deg;
+            top:60%;
+            left:30%;
+        }
+    }
+    
+
+
+
+    }
