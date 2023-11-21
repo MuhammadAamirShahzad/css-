@@ -23,14 +23,11 @@ html,body{
 @keyframes move1 {
     0%{
         left: 0;
-        top:0%
-        
+        top:0%     
     }
     
     50%{
-        left: 80%;
-        
-        
+        left: 80%;         
     }
     100%{
         rotate: 360deg;
@@ -51,14 +48,11 @@ html,body{
 @keyframes move2 {
     0%{
         left: 0;
-        top:0%
-        
+        top:0%;  
     }
     
     50%{
-        left: 80%;
-       
-        
+        left: 80%;      
     }
     
     100%{
@@ -81,14 +75,11 @@ html,body{
     @keyframes move3 {
         0%{
             left: 0;
-            top:0%
-            
+            top:0%;    
         }
         
         50%{
-            left: 80%;
-            
-            
+            left: 80%;     
         }
         100%{
             rotate: 360deg;
